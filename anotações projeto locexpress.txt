@@ -1,0 +1,12 @@
+Cor laranja escuro: #f5821f
+amarelo pastel: #fcb514
+azul bebe: #3b479d
+
+
+
+
+coca-cola 4,50
+sabão 5,50
+qboa 2,50
+desinfetante 3 
+xilito 1,50
