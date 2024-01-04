@@ -1,12 +1,3 @@
 Cor laranja escuro: #f5821f
 amarelo pastel: #fcb514
-<<<<<<< HEAD
 azul bebe: #3b479d
-=======
-azul bebe: #3b479d
-
-
-
-
-
->>>>>>> c1d7ed32f9df65e34c8793603416d2a75ae5b1d2
