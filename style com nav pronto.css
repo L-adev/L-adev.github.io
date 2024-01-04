@@ -6,6 +6,7 @@
 }
 body {
     height: 100%;
+    width: 100%;
 }
 #principal {
     background-image: linear-gradient(to right, #fcb514, #f5821f);
@@ -75,6 +76,7 @@ h2 {
     box-shadow: rgb(245, 120, 3);
     margin-right: 3em;
     text-align: center;
+    outline: none;
 }
 #busqueEq:hover {
     background: white;
@@ -131,38 +133,63 @@ menu {
     transition: 0.3s;
 }
 main {
-    background-color: #eeeeee;
+    background-color: rgb(235, 229, 229);
     margin: 0px;
-    padding-bottom: 200px;
+    padding-bottom: px;
 }
-#categorias {
+.categorias {
     display: flex ;
     align-items: center;
     margin: 150px;
     justify-content: center;
+    background-color: rgb(226, 224, 224);
+    align-items: self-start;
+    border-radius: 15px;
+    width: 900px;
+    position: relative;
+    height: 950px;
+    padding-left: 180px;
+    padding-right: 180px;
+    left: -100px;
+    
+    
 }
-#acess{
+.botcat {
+    display: flex;
+    position: relative;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    left: 170px;
+}
+.acess{
     display: grid;
     text-decoration: none;
     color: rgb(58, 58, 58);
     background-color: #ffffff15;
-    padding: 10px 5px;
     align-items: center;
-    border-color: #ffffff00;
+    border-color: #c40c0c00;
     border-radius: 15px;
     font-size: medium;
+    margin: px;
+    width: 150px;
+    
 }
 .elev{
     align-items: center;
     text-align: center;
-    margin: 15px;
+    margin: 3px;
+    height: 1px;
+    
+
+    
 }
 #imgacess {
-    position: relative;
-    left: 38px;
+    position: relative; 
+    right: -5px;
     bottom: 10px;
+    
 }
-#acess:hover {
+.acess:hover {
     background-color: #eeeeee;
     transition: 0.6s;
     color: #3b479d;
@@ -186,4 +213,76 @@ footer {
     position: relative;
     right: 30px;
     font-family: 'Open Sans', sans-serif;
+}
+.andaimes {
+    display: grid;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    background-color: #ffffff15;
+    padding: 10px 5px;
+    align-items:center;
+    border-color: #50505000;
+    border-radius: 15px;
+    font-size: medium;
+    width: 100px;
+    height: 92px;
+    position: relative;
+    bottom: 6px;
+}
+#andaime {
+    position: relative;
+    left: 29px;
+    bottom: 10px;
+
+}
+#compactação {
+    position: relative;
+    left: 16px;
+    bottom: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 3px;
+}
+#demolição {
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    padding-top: 3px;
+    height: 49px;
+    width: 49px;
+}
+#concretagem {
+    position: relative;
+    left: 20px;
+}
+#outros {
+    position: relative;
+    left: 25px;
+}
+.cardbet {
+    width: 150px;
+    height: 350px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    display: block;
+    position: relative;
+    top: 45px;
+    right: 180px;
+    border-radius: 8px;
+    padding: 3px;
+    background: #ffffff;
+    margin: 3px;
+}
+.tamimg {
+    width: 150px;
+    height: 100px;
+    
+}
+.cards {
+    display: flex;
+    position: relative;
+    top: 170px;
+    
+}
+.carddem {
+
 }
