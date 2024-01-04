@@ -2,10 +2,7 @@
     margin: 0px;
     padding: 0px;
     max-width: 85.3125em;
-    font-family: 'Open Sans', sans-serif;
-}
-body {
-    height: 100%;
+    height: auto;
 }
 #principal {
     background-image: linear-gradient(to right, #fcb514, #f5821f);
@@ -20,7 +17,7 @@ h2 {
     left: 525px;
     font-size: 30px;
     margin: 70px 0px;
-    font-weight: 700;
+    font-weight: bold;
     color: #3b479d;
 
 }
@@ -55,17 +52,11 @@ h2 {
 .icones {
    width: 30px;
    height: 30px;
-   position: relative;
-   top: 10px
 }
 #logoLocexpress {
     width: 240px;
     height: 55px;
     margin: 1%;
-}
-#logolocx {
-    background-color: #ffffff00;
-    border-color: #ffffff00;
 }
 #busqueEq {
     width: 25%;
@@ -117,7 +108,7 @@ menu {
     right: 190px;
     background: linear-gradient(334.24deg, #FCB614 -9.84%, #F37A20 121.28%);
     border-radius: 3em;
-    color: #ffffff;
+    color: #FFF;
     display: table;
     margin: 2em auto;
     padding: 0.6em 3em;
@@ -130,11 +121,6 @@ menu {
     background-image: linear-gradient(0deg, #F37A20 -9.84%, #FCB614 121.28%);
     transition: 0.3s;
 }
-main {
-    background-color: #eeeeee;
-    margin: 0px;
-    padding-bottom: 200px;
-}
 #categorias {
     display: flex ;
     align-items: center;
@@ -145,7 +131,7 @@ main {
     display: grid;
     text-decoration: none;
     color: rgb(58, 58, 58);
-    background-color: #ffffff15;
+    background-color: #ffffff;
     padding: 10px 5px;
     align-items: center;
     border-color: #ffffff00;
@@ -169,21 +155,4 @@ main {
     box-shadow: 0.5px 0.5px 100px 1px #b9b9b9c4;
     
     
-}
-footer {
-    height: 10rem;
-    background-image: linear-gradient(to left, #fcb514, #f5821f);
-}
-#contatos {
-    display: inline-block;
-    border: 3px solid black;
-    width: 200px;
-    text-align: center;
-    
-}
-#sig {
-    color: #3b479d;
-    position: relative;
-    right: 30px;
-    font-family: 'Open Sans', sans-serif;
 }
